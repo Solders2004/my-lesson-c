@@ -30,3 +30,25 @@ int main()
      return 0;
 }
 
+
+задача 3
+#include <stdio.h>
+
+int main()
+{
+    int a, b, sum;
+
+    scanf("%d%d", &a, &b);
+
+    while (a <= b)
+    {
+        sum += a*a;
+
+        a++;
+
+    }
+
+    printf("%d", sum);
+
+    return 0;
+}
