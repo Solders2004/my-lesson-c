@@ -1,0 +1,535 @@
+Урок А
+
+задача 0
+#include <stdio.h>
+
+int main(void) {
+    printf("Hello world!\n");
+    return 0;
+}
+
+задача 1
+#include <stdio.h>
+
+int main(void) {
+    printf("	 Let's\n           go\n               to walk\n");
+    return 0;
+}
+
+задача 2
+#include <stdio.h>
+
+int main(void) {
+    printf("     *\n    ***\n   *****\n  *******\n   HHOHH\n   ZZZZZ\n");
+    return 0;
+}
+
+задача 3
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    scanf ("%d%d%d", &a, &b, &c);
+    printf("%d+%d+%d=%d", a, b, c, a+b+c);
+    return 0;
+}
+
+задача 4
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    scanf ("%d%d%d", &a, &b, &c);
+    printf("%d+%d+%d=%d\n", a, b, c, a+b+c);
+    printf("%d*%d*%d=%d", a, b, c, a*b*c);
+    return 0;
+}
+
+задача 5
+#include <stdio.h>
+
+int main() {
+
+    float a, b, c, x;
+
+    scanf("%f%f%f", &a, &b, &c);
+
+    x=(a+b+c)/3;
+
+    printf("%.2f", x);
+
+    return 0;
+}
+
+задача6
+#include <stdio.h>
+
+int main() {
+
+    int a, b, c;
+
+    scanf("%d%d", &a, &b);
+
+    c=a-b;
+
+    printf("%d", c);
+
+    return 0;
+}
+
+задача 7
+#include <stdio.h>
+
+int main(void)
+{
+
+    int a, b, min, max;
+
+    scanf("%d %d", &a, &b);
+
+    if (b>a)
+    {
+        max = b;
+    }
+    else
+    {
+        max = a;
+    }
+    if (b<a)
+    {
+
+        min = b;
+    }
+    else
+    {
+        min = a;
+    }
+
+    printf("%d %d\n", min, max);
+
+    return 0;
+}
+
+
+задача 8
+#include <stdio.h>
+
+int main(void)
+{
+
+    int a, b, c, max, sred, min;
+
+    scanf("%d%d%d", &a, &b, &c);
+
+    if (a>b)
+    {
+        sred = a;
+    }
+    else
+    {
+        sred = b;
+    }
+    if (sred>c)
+    {
+
+        max = sred;
+    }
+    else
+    {
+        max = c;
+    }
+
+
+    printf("%d\n", max);
+
+    return 0;
+}
+
+задача 9
+#include <stdio.h>
+
+int main(void)
+{
+
+    int a, b, c, d, e, max, sred, sred1, sred2, min;
+
+    scanf("%d%d%d%d%d", &a, &b, &c, &d, &e);
+
+    if (a>b)
+    {
+        sred = a;
+    }
+    else
+    {
+        sred = b;
+    }
+
+    if (sred>c)
+    {
+
+        sred1 = sred;
+    }
+    else
+    {
+        sred1 = c;
+    }
+    if (sred1>d)
+    {
+
+        sred2 = sred1;
+    }
+    else
+    {
+        sred2 = d;
+    }
+    if (sred2>e)
+    {
+
+        max = sred2;
+    }
+    else
+    {
+        max = e;
+    }
+
+    printf("%d\n", max);
+
+    return 0;
+}
+
+
+задача 10
+#include <stdio.h>
+
+int main(void)
+{
+
+    int a, b, c, d, e, max, sred, sred1, sred2, min;
+
+    scanf("%d%d%d%d%d", &a, &b, &c, &d, &e);
+
+    if (a<b)
+    {
+        sred = a;
+    }
+    else
+    {
+        sred = b;
+    }
+
+    if (sred<c)
+    {
+
+        sred1 = sred;
+    }
+    else
+    {
+        sred1 = c;
+    }
+    if (sred1<d)
+    {
+
+        sred2 = sred1;
+    }
+    else
+    {
+        sred2 = d;
+    }
+    if (sred2<e)
+    {
+
+        min = sred2;
+    }
+    else
+    {
+        min = e;
+    }
+
+    printf("%d\n", min);
+
+    return 0;
+}
+
+
+
+задача 11
+#include <stdio.h>
+
+int main(void)
+{
+
+    int a, b, c, d, e, max, sred, sred1, sred2, min, summ;
+
+    scanf("%d%d%d%d%d", &a, &b, &c, &d, &e);
+
+    if (a<b)
+    {
+        sred = a;
+    }
+    else
+    {
+        sred = b;
+    }
+
+    if (sred<c)
+    {
+
+        sred1 = sred;
+    }
+    else
+    {
+        sred1 = c;
+    }
+    if (sred1<d)
+    {
+
+        sred2 = sred1;
+    }
+    else
+    {
+        sred2 = d;
+    }
+    if (sred2<e)
+    {
+
+        min = sred2;
+    }
+    else
+    {
+        min = e;
+    }
+
+
+        if (a>b)
+    {
+        sred = a;
+    }
+    else
+    {
+        sred = b;
+    }
+
+    if (sred>c)
+    {
+
+        sred1 = sred;
+    }
+    else
+    {
+        sred1 = c;
+    }
+    if (sred1>d)
+    {
+
+        sred2 = sred1;
+    }
+    else
+    {
+        sred2 = d;
+    }
+    if (sred2>e)
+    {
+
+        max = sred2;
+    }
+    else
+    {
+        max = e;
+    }
+
+
+    printf("%d\n", min+max);
+
+
+
+
+    return 0;
+}
+
+
+задача 12
+#include <stdio.h>
+
+int main() {
+
+    int a;
+
+    scanf("%d", &a);
+
+    printf("%d", a%10+a/10%10+a/100);
+
+    return 0;
+}
+
+
+
+задача 13
+#include <stdio.h>
+
+int main() {
+
+    int a;
+
+    scanf("%d", &a);
+
+    printf("%d", (a%10)*(a/10%10)*(a/100));
+
+    return 0;
+}
+
+задача 14
+#include <stdio.h>
+
+int main()
+{
+
+    int a, b, c, d, sred, max;
+
+    scanf("%d", &a);
+
+    b=a%10;
+    c=a/10%10;
+    d=a/100;
+
+    // printf("%d\n", b);
+    // printf("%d\n", c);
+    // printf("%d\n\n", d);
+
+    if (b>c)
+    {
+        sred = b;
+    }
+    else
+    {
+        sred = c;
+    }
+    if (sred>d)
+    {
+
+        max = sred;
+    }
+    else
+    {
+        max = d;
+    }
+
+    printf("%d\n", max);
+
+    return 0;
+}
+
+задача 15
+#include <stdio.h>
+
+int main()
+{
+
+    float x1, y1, x2, y2, k, b;
+
+    scanf("%f%f%f%f", &x1, &y1, &x2, &y2);
+
+
+    k = (y1 - y2) / (x1 - x2);
+
+    b = y2 - k * x2;
+
+    printf("%.2f %.2f\n", k, b);
+
+    return 0;
+}
+
+
+задача 16
+#include <stdio.h>
+
+int main()
+{
+
+    int a, b, c;
+
+    scanf("%d%d%d", &a, &b, &c);
+
+    if (a<b && b<c) {
+        printf("YES");
+    }
+    else {
+        printf("NO");
+    }
+
+     return 0;
+}
+
+задача 17
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d", &a);
+    switch (a) {
+        case 12 :
+        case 1 :
+        case 2 : printf("winter\n");
+        break;
+        case 3 :
+        case 4 :
+        case 5 : printf("spring\n");
+        break;
+        case 6 :
+        case 7 :
+        case 8 : printf("summer\n");
+        break;
+        case 9 :
+        case 10 :
+        case 11 : printf("autumn\n");
+        break;
+    }
+
+     return 0;
+}
+
+Задача 18
+#include <stdio.h>
+
+int main(void)
+{
+    int a, b;
+
+    scanf("%d%d", &a, &b);
+
+    if (a!=b && a>b) {
+        printf("Above");
+    }
+
+    else if (a!=b && a<b) {
+        printf("Less");
+    }
+
+    else {
+        printf("Equal");
+    }
+
+    // Equal  Less  Above
+
+     return 0;
+}
+
+задача 19
+#include <stdio.h>
+
+int main(void)
+{
+    int a, b, c;
+
+    scanf("%d%d%d", &a, &b, &c);
+
+    if ((a<b+c) && (b<a+c) && (c<a+b)) {
+        printf("YES");
+    }
+
+    else {
+        printf("NO");
+    }
+
+     return 0;
+}
