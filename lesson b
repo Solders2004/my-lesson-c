@@ -103,7 +103,40 @@ int main()
 
 
 задача 6
+задача 8
+#include <stdio.h>
 
+// Ввести целое число и определить, верно ли, что в нём ровно одна цифра «9».
+
+int main(void)
+{
+    int a, k=0,b=0;
+    scanf("%d", &a);
+    while(a!=0)
+    {
+        if ((a%10)!=9)
+        {
+            k = 0;
+            a/=10;
+        }
+        else if ((a%10)==9)
+        {
+            b += 1;
+            a/=10;
+        }
+    }
+        if (b==1)
+        {
+            printf("YES");
+        }
+        else
+        {
+            printf("NO");
+        }
+
+    return 0;
+
+}
 
 задача 9
 #include <stdio.h>
