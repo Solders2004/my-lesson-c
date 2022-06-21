@@ -103,3 +103,38 @@ int main()
 
 
 задача 6
+
+
+задача 9
+#include <stdio.h>
+
+// Ввести целое число и определить, верно ли, что все его цифры четные.
+
+int main(void)
+{
+    int a, k=3;
+    scanf("%d", &a);
+    while(a!=0)
+    {
+        if ((a%10)%2==0)
+        {
+            k = 0;
+            a/=10;
+        }
+        else if ((a%10)%2==1)
+        {
+            k = 1;
+            break;
+        }
+    }
+    if (k==0)
+    {
+        printf("YES");
+    }
+    else if (k==1)
+    {
+        printf("NO");
+    }
+
+    return 0;
+}
