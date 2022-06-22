@@ -172,6 +172,61 @@ int main(void)
     return 0;
 }
 
+
+задача 10
+#include <stdio.h>
+
+// Ввести целое число и определить, верно ли, что все его цифры расположены
+// СТРОГО в порядке возрастания.
+
+int main(void)
+{
+    int a, k=1;
+
+    scanf("%d", &a);
+
+    while(a!=0)
+    {
+        int c=0,x=0;
+        c = a%10;
+
+      //  printf("poslednee chislo %d\n", c);
+
+        x = a/10%10;
+
+     //   printf("pred poslednee chislo %d\n", x);
+
+        if (c>x)
+        {
+        //    printf("sravnenie %d > %d\n", c, x);
+
+            k = 0;
+            a/=10;
+        }
+
+
+
+        else
+        {
+            k = 1;
+
+         //   printf("break \n");
+
+            break;
+        }
+    }
+    if (k==0 || a==0)
+    {
+        printf("YES");
+    }
+    else
+    {
+        printf("NO");
+    }
+
+    return 0;
+}
+
 задача 11
 #include <stdio.h>
 
